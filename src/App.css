@@ -16,6 +16,15 @@ body {
   height: 100vh;
 }
 
+.logo-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from the parent */
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 /* Header Styles */
 .header {
   display: flex;
@@ -97,6 +106,7 @@ body {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
+  text-decoration: none; /* Remove underline */
   text-transform: uppercase;
   color: #1F1F3B; /* Matches darker text color */
   cursor: pointer;
@@ -108,6 +118,9 @@ body {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
 }
+
+
+
 /* Illustrations */
 /* Sun */
 .illustrations .sun {
@@ -282,3 +295,10 @@ body {
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+/* Hero Section */
+.journal-hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(180deg, #FFE6F2, #FFF9FB);
+}
+
+.journal-hero .hero-content h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #1F1F3B;
+}
+
+.journal-hero .hero-content p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #555568;
+  margin-top: 10px;
+}
+
+/* Centered Journal Entries */
+.journal-entries {
+  display: flex; /* Flexbox for centering */
+  flex-direction: column; /* Stack the entries vertically */
+  justify-content: center; /* Centers vertically */
+  align-items: center; /* Centers horizontally */
+  gap: 20px; /* Space between posts */
+  height: 80vh; /* Makes sure it takes up most of the viewport height */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 20px;
+}
+
+/* Individual Entry Cards */
+.entry-card {
+  width: 80%; /* Restricts the card width */
+  max-width: 600px; /* Prevents overly large cards */
+  background-color: #FFFFFF;
+  border: 1px solid #FFDDE5;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center; /* Centers text inside the card */
+}
+
+.entry-card h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #1F1F3B;
+  margin-bottom: 10px;
+}
+
+.entry-card p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #555568;
+  margin-bottom: 15px;
+}
+
+.entry-card .button {
+  background-color: #FFCCCC;
+  border: 1px solid #FF80B5;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #1F1F3B;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.entry-card .button:hover {
+  background-color: #FF80B5;
+  color: #FFFFFF;
+  transform: scale(1.05);
+}
+
+/* Entry Card Hover Effect */
+.entry-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
