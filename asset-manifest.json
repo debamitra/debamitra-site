@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/debamitra-site/static/css/main.b122007a.css",
+    "main.js": "/debamitra-site/static/js/main.58e3b5d4.js",
+    "static/js/488.5207f11f.chunk.js": "/debamitra-site/static/js/488.5207f11f.chunk.js",
+    "index.html": "/debamitra-site/index.html",
+    "main.b122007a.css.map": "/debamitra-site/static/css/main.b122007a.css.map",
+    "main.58e3b5d4.js.map": "/debamitra-site/static/js/main.58e3b5d4.js.map",
+    "488.5207f11f.chunk.js.map": "/debamitra-site/static/js/488.5207f11f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b122007a.css",
+    "static/js/main.58e3b5d4.js"
+  ]
+}
