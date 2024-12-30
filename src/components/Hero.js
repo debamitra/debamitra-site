@@ -23,6 +23,7 @@ const Hero = () => {
           <div className="cloud"></div>
           <div className="cloud"></div>
           <div className="cloud"></div>
+          <div class="cloud"></div>
         </div>
       </div>
     </section>
